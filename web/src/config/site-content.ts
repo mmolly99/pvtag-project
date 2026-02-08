@@ -4,7 +4,7 @@
 export const siteContent = {
   brand: {
     name: 'PVTAG',
-    logo: '/logo.svg',
+    logo: '/logo.png',
   },
 
   navigation: [
@@ -17,7 +17,7 @@ export const siteContent = {
   ],
 
   infiniteTrails: {
-    tagline: 'Community',
+    tagline: 'TAG',
     description:
       "The premier destination for sun-powered pet explorers. Share your pet's off-grid adventures, discover community-verified secret trails, and use our AI-driven heatmaps to visualize the infinite paths your companions tread under the sun.",
   },

@@ -57,11 +57,11 @@ button {
    ============================================ */
 
 .main-content {
-  padding-top: 72px; /* Header height */
+  padding-top: 56px; /* Header height */
 }
 
 .hero {
-  min-height: calc(100vh - 72px);
+  min-height: calc(100vh - 56px);
   display: flex;
   flex-direction: column;
   align-items: center;

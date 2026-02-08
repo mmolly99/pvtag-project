@@ -8,12 +8,16 @@ export function Header() {
   return (
     <header className="header">
       <div className="header-container">
-        {/* Logo / Brand */}
+        {/* Logo */}
         <a href="/" className="header-brand">
-          <span className="brand-name">{siteContent.brand.name}</span>
+          <img
+            src={siteContent.brand.logo}
+            alt={siteContent.brand.name}
+            className="brand-logo"
+          />
         </a>
 
-        {/* Desktop Navigation */}
+        {/* Desktop Navigation - now directly after logo */}
         <nav className="header-nav desktop-nav">
           {siteContent.navigation.map((item) => (
             <a
@@ -28,6 +32,9 @@ export function Header() {
             </a>
           ))}
         </nav>
+
+        {/* Spacer to push mobile menu button to right */}
+        <div className="header-spacer"></div>
 
         {/* Mobile Menu Button */}
         <button
