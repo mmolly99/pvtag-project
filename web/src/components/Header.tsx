@@ -25,9 +25,11 @@ export function Header() {
               href={item.href}
               className={`nav-link ${item.highlight ? 'nav-link-highlight' : ''}`}
             >
-              {item.label}
+              <span className="nav-link-label">{item.label}</span>
               {item.highlight && (
-                <span className="nav-badge">{siteContent.infiniteTrails.tagline}</span>
+                <span className="nav-badge-inline">
+                  {siteContent.infiniteTrails.tagline}
+                </span>
               )}
             </a>
           ))}

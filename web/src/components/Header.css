@@ -16,7 +16,7 @@
   max-width: 1400px;
   margin: 0 auto;
   padding: 0 24px 0 8px;
-  height: 56px;
+  height: 42px;
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -52,6 +52,9 @@
 
 .nav-link {
   position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
   padding: 10px 16px;
   font-size: 0.9rem;
   font-weight: 500;
@@ -76,18 +79,19 @@
   background: rgba(68, 67, 245, 0.1);
 }
 
-.nav-badge {
-  position: absolute;
-  top: -5px;
-  right: -4px;
-  padding: 2px 6px;
-  font-size: 0.55rem;
+.nav-link-label {
+  display: inline-flex;
+}
+
+.nav-badge-inline {
+  padding: 2px 10px;
+  font-size: 0.65rem;
   font-weight: 700;
   text-transform: uppercase;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.04em;
   color: #fff;
   background: #4443F5;
-  border-radius: 6px;
+  border-radius: 5px;
 }
 
 
