@@ -29,3 +29,13 @@ npm-debug.log*
 .cache/
 *.pyc
 __pycache__/
+
+# Images (use `git add -f <file>` to force-add specific images)
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.webp
+*.svg
+*.bmp
+*.ico
